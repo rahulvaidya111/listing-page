@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: -2px;
+    padding: 3px;
+
+}
+body{
+/* font-family: 'Times New Roman', Times, serif;
+font-size: 16px; */
+}
+/* Header */
+
+header{
+background-color: brown;
+}
+.container{
+width: 80%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+}
+.logo{
+width: 50px;
+height: 50px;
+background-color: white;
+border-radius: 60%;
+text-align: center;
+line-height: 50px;
+font-size: 32px;
+color: rgb(250, 68, 68);
+font-weight: 900;
+}
+
+.button{
+padding: 15px 10px;
+background-color: blanchedalmond;
+border: 1px solid black;
+color: rgb(0, 0, 0);
+border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+nav >a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: #192f60;
+}
+/* filter and manin contain */
+.contain{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+.main-contain{
+    height: 500px;
+    width: 20%;
+    border: 10px soild black;
+    float: left;
+    text-align: justify;
+}
+
+.subcontain{
+    width: 70%;
+    /* border: 3px solid red; */
+    display: flex;
+    float: right;
+}
+.filter {
+    color: #192f60;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 24px;
+}
+
+.location, .cuisine, .cost, .sort > p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.location >select {
+    padding 5px 10px
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.card {
+    width: 900px;
+    height: 300px;
+    box-shadow: 0px 3px 6px; 
+    border-radius: 25px;
+    margin: 20px;
+    float: left;
+    margin-top: 2%;
+    position: 
+    
+}
+.card .information {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+}
+.card .details .title {
+    font-size: 42px;
+    font-weight: 700;
+   }
+. title{
+    font-size: x-large;
+}
+
+hr {
+    width: 100%;
+
+
+}
+.card-footer {
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+/* Footer section */
+footer{
+    /* height: 180px; */
+    /* border: 5px groove goldenrod; */
+    background-color: #700b0b;
+    color: white;
+    text-align: center;
+
+
+}
+.footText{
+    font-size: 24px;
+
+}
+.footDiv{
+    display: inline-block ;
+    width: 32%;
+    border-right: 2px solid white;
+}
+.sociallogo{
+    height: 50px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
